@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arkadaş Anketi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Proje Anketi</h1>
+    <form id="survey-form">
+      <label for="name">İsminiz:</label>
+      <input type="text" id="name" name="name" required />
+
+      <div class="question">
+        <p>Hangi Proje</p>
+        <label><input type="radio" name="q1" value="Book" required /> Book</label>
+        <label><input type="radio" name="q1" value="Cinemania" /> Cinemania</label>
+        <label><input type="radio" name="q1" value="Tasty Treats" /> Tasty Treats</label>
+      </div>
+
+      <button type="submit">Gönder</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Teşekkürler!</h2>
+      <p>Sonuçlar kaydedildi.</p>
+      <div id="answers"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
