@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Google Sheet'e veri gönderme fonksiyonu
   function sendDataToGoogleSheet(name, q1) {
     const apiUrl =
-      "https://docs.google.com/spreadsheets/d/10DmjweRy-Som9WSF_N6kcrOWefWitKdqfeYf12C54_s/edit?usp=sharing"; // Örnek: https://script.google.com/macros/s/AKfycxxxxxxx/exec
+      "https://docs.google.com/spreadsheets/d/e/2PACX-1vTC2zF3guiLMU7hMe8tzKwXjryIkhoO6XJtFBQp-wfoEiPNKgIiBXshVJEkwtpMyYq2IBNsvRa8o2ih/pubhtml"; // Örnek: https://script.google.com/macros/s/AKfycxxxxxxx/exec
 
     fetch(apiUrl, {
       method: "POST",
